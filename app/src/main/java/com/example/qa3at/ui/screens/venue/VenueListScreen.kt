@@ -26,6 +26,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Diamond
 import androidx.compose.material.icons.filled.FilterList
 import androidx.compose.material.icons.filled.Groups
 import androidx.compose.material.icons.filled.Hotel
@@ -369,6 +370,36 @@ private fun VenueCard(
                         .padding(12.dp),
                     horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
+                    // Featured Badge
+                    if (venue.isFeatured) {
+                        Box(
+                            modifier = Modifier
+                                .background(
+                                    brush = Brush.horizontalGradient(
+                                        listOf(Color(0xFFFFD700), Color(0xFFDAA520))
+                                    ),
+                                    shape = RoundedCornerShape(8.dp)
+                                )
+                                .padding(horizontal = 8.dp, vertical = 4.dp)
+                        ) {
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Icon(
+                                    imageVector = Icons.Filled.Diamond,
+                                    contentDescription = null,
+                                    modifier = Modifier.size(12.dp),
+                                    tint = Color.White
+                                )
+                                Spacer(modifier = Modifier.width(4.dp))
+                                Text(
+                                    text = "الأفضل",
+                                    style = MaterialTheme.typography.labelSmall,
+                                    color = Color.White,
+                                    fontWeight = FontWeight.Bold
+                                )
+                            }
+                        }
+                    }
+
                     // Category badge
                     val isHotel = venue.vendorId == "hotel"
                     Box(

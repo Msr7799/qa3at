@@ -37,7 +37,8 @@ data class VenueDto(
     val amenities: List<String> = emptyList(),
     val photos: List<VenuePhotoDto> = emptyList(),
     val vendorId: String,
-    val isActive: Boolean = true
+    val isActive: Boolean = true,
+    val isFeatured: Boolean = false
 ) {
     fun toDomain(): Venue = Venue(
         id = id,
@@ -60,7 +61,8 @@ data class VenueDto(
         amenities = amenities,
         photos = photos.map { it.url },
         vendorId = vendorId,
-        isActive = isActive
+        isActive = isActive,
+        isFeatured = isFeatured
     )
 }
 

@@ -36,7 +36,8 @@ data class Venue(
     val photos: List<String>,
     val amenities: List<String>,
     val vendorId: String,
-    val isActive: Boolean = true
+    val isActive: Boolean = true,
+    val isFeatured: Boolean = false
 )
 
 data class VenuePhoto(
