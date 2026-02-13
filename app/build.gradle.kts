@@ -37,9 +37,9 @@ android {
         if (localFile.exists()) {
             localFile.inputStream().use { localProperties.load(it) }
         }
-        val baseUrl = localProperties.getProperty("API_BASE_URL") ?: "\"http://10.0.2.2:3000/api/\""
+        val rawUrl = localProperties.getProperty("API_BASE_URL") ?: "http://10.0.2.2:3000/api/"
         
-        buildConfigField("String", "API_BASE_URL", baseUrl)
+        buildConfigField("String", "API_BASE_URL", "\"$rawUrl\"")
     }
 
     signingConfigs {
