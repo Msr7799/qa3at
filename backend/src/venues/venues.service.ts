@@ -35,7 +35,7 @@ export class VenuesService {
       where.minCapacity = { lte: guests };
     }
 
-    const orderBy: any = {};
+    let orderBy: any = {};
     switch (sortBy) {
       case 'price_low':
         orderBy.basePrice = 'asc';
@@ -46,8 +46,16 @@ export class VenuesService {
       case 'rating':
         orderBy.rating = 'desc';
         break;
+      case 'capacity':
+        orderBy.capacity = 'desc';
+        break;
       default:
-        orderBy.rating = 'desc';
+        // Default sort: Featured first, then by luxury rank (1 is best), then rating
+        orderBy = [
+          { isFeatured: 'desc' },
+          { luxuryRank: 'asc' },
+          { rating: 'desc' },
+        ];
     }
 
     const [venues, total] = await Promise.all([

@@ -66,6 +66,8 @@ model Venue {
   rating         Float    @default(0)
   reviewCount    Int      @default(0)
   amenities      String[]
+  isFeatured     Boolean  @default(false)
+  luxuryRank     Int      @default(999)
   isActive       Boolean  @default(true)
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
@@ -90,6 +92,7 @@ model Venue {
   @@index([city])
   @@index([capacity])
   @@index([isActive])
+  @@index([isFeatured, luxuryRank])
   @@map("venues")
 }
 
