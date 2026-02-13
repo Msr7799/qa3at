@@ -86,8 +86,10 @@
     "testEnvironment": "node"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "22.x",
+    "pnpm": "10.x"
   },
+  "packageManager": "pnpm@10.22.0",
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
   }
