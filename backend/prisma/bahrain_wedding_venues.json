@@ -1,4 +1,5 @@
 {
+  "sourceBaseUrl": "https://bahrain.zafaf.net",
   "generatedAt": "2026-02-13T01:57:51Z",
   "hotels": [
     {
@@ -2606,6 +2607,90 @@
           "notes": "Garden terrace; minimum 100, maximum 300."
         }
       ]
+    },
+    {
+      "number": 36,
+      "starRating": 5,
+      "nid": "90003",
+      "titleArabic": "فندق شاطئ دراجون",
+      "titleEnglish": "Dragon Beach Hotel",
+      "url": null,
+      "fullUrl": null,
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Unknown",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "100",
+      "price": null,
+      "category": "Hotels",
+      "city": "Amwaj Islands",
+      "mainImage": "https://s3.eu-central-2.wasabisys.com/dragonwp2025/wp-media-folder-the-dragon-beach-hotel-amwaj-islands-bahrain-suites-villas-chalets-kingdom-of-bahrain/wp-content/uploads/2026/01/Wedding-Event-7.jpg",
+      "photos": [
+        "https://s3.eu-central-2.wasabisys.com/dragonwp2025/wp-media-folder-the-dragon-beach-hotel-amwaj-islands-bahrain-suites-villas-chalets-kingdom-of-bahrain/wp-content/uploads/2026/01/Wedding-Event-7.jpg",
+        "https://s3.eu-central-2.wasabisys.com/dragonwp2025/wp-media-folder-the-dragon-beach-hotel-amwaj-islands-bahrain-suites-villas-chalets-kingdom-of-bahrain/wp-content/uploads/2026/01/Wedding-Event-4.jpg",
+        "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepAOpQIBv3_S4usLNs0QLrQNwYJ9paPXHLT8qe4ZBuRAclcrKFopTYg1ERNn7cEih1TCjadeIhda1Op1yPN_q8C26qzns1wkxx7sK_yG0e0Rjz8mwpvjyuRUomEj0mnDtveIeBDAA=s1360-w1360-h1020",
+        "https://lh3.googleusercontent.com/proxy/TyDfKzC8uiI9gZOD66ezSrJAVB5jGEAkIgYEZmpxh-FMJ4RR2YqAs2ZR9EwOkdgM9Itts6JDnSxA676RDjJCu9CRsJGQhFReo7rxo-BmHT_iBFs2mNyfYHc5s9uyG6RRFqMwo_dbv1yOk93qUxqDXgx9d1fcWFk=w160-h106-k-no",
+        "https://s3.eu-central-2.wasabisys.com/dragonwp2025/wp-media-folder-the-dragon-beach-hotel-amwaj-islands-bahrain-suites-villas-chalets-kingdom-of-bahrain/wp-content/uploads/2026/01/Private-Event-1.jpg",
+        "https://s3.eu-central-2.wasabisys.com/dragonwp2025/wp-media-folder-the-dragon-beach-hotel-amwaj-islands-bahrain-suites-villas-chalets-kingdom-of-bahrain/wp-content/uploads/2026/01/Wedding-Event-6.jpg",
+        "https://s3.eu-central-2.wasabisys.com/dragonwp2025/wp-media-folder-the-dragon-beach-hotel-amwaj-islands-bahrain-suites-villas-chalets-kingdom-of-bahrain/wp-content/uploads/2026/01/Wedding-Event-8.jpg"
+      ],
+      "descriptionEN": "If you’re looking for a venue that stands out, the Dragon is the ideal destination for meetings and events. Combining excellent facilities with a prime location and a range of leisure activities, our hotel’s beach setting provides the perfect backdrop for product launches, team-building events, conferences, meetings, and staff outings. With amenities such as complimentary venue-wide Wi-Fi and convenient parking, we ensure your guests enjoy both comfort and convenience throughout their stay.",
+      "imageUrls": [
+        "https://images.weserv.nl/?url=https%3A%2F%2Fs3.eu-central-2.wasabisys.com%2Fdragonwp2025%2Fwp-media-folder-the-dragon-beach-hotel-amwaj-islands-bahrain-suites-villas-chalets-kingdom-of-bahrain%2Fwp-content%2Fuploads%2F2026%2F01%2FWedding-Event-7.jpg&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fs3.eu-central-2.wasabisys.com%2Fdragonwp2025%2Fwp-media-folder-the-dragon-beach-hotel-amwaj-islands-bahrain-suites-villas-chalets-kingdom-of-bahrain%2Fwp-content%2Fuploads%2F2026%2F01%2FWedding-Event-4.jpg&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAHVAwepAOpQIBv3_S4usLNs0QLrQNwYJ9paPXHLT8qe4ZBuRAclcrKFopTYg1ERNn7cEih1TCjadeIhda1Op1yPN_q8C26qzns1wkxx7sK_yG0e0Rjz8mwpvjyuRUomEj0mnDtveIeBDAA%3Ds1360-w1360-h1020&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fproxy%2FTyDfKzC8uiI9gZOD66ezSrJAVB5jGEAkIgYEZmpxh-FMJ4RR2YqAs2ZR9EwOkdgM9Itts6JDnSxA676RDjJCu9CRsJGQhFReo7rxo-BmHT_iBFs2mNyfYHc5s9uyG6RRFqMwo_dbv1yOk93qUxqDXgx9d1fcWFk%3Dw160-h106-k-no&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fs3.eu-central-2.wasabisys.com%2Fdragonwp2025%2Fwp-media-folder-the-dragon-beach-hotel-amwaj-islands-bahrain-suites-villas-chalets-kingdom-of-bahrain%2Fwp-content%2Fuploads%2F2026%2F01%2FPrivate-Event-1.jpg&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fs3.eu-central-2.wasabisys.com%2Fdragonwp2025%2Fwp-media-folder-the-dragon-beach-hotel-amwaj-islands-bahrain-suites-villas-chalets-kingdom-of-bahrain%2Fwp-content%2Fuploads%2F2026%2F01%2FWedding-Event-6.jpg&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fs3.eu-central-2.wasabisys.com%2Fdragonwp2025%2Fwp-media-folder-the-dragon-beach-hotel-amwaj-islands-bahrain-suites-villas-chalets-kingdom-of-bahrain%2Fwp-content%2Fuploads%2F2026%2F01%2FWedding-Event-8.jpg&w=1200&fit=cover"
+      ],
+      "imageSource": "user-provided"
+    },
+    {
+      "number": 37,
+      "starRating": 5,
+      "nid": "90004",
+      "titleArabic": "فندق سوليمار",
+      "titleEnglish": "Solymar Hotel (Amwaj Islands)",
+      "url": null,
+      "fullUrl": null,
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Unknown",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "1000",
+      "price": null,
+      "category": "Hotels",
+      "city": "Amwaj Islands",
+      "mainImage": "https://images.trvl-media.com/lodging/20000000/19300000/19290500/19290417/a1d31c61.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+      "photos": [
+        "https://images.trvl-media.com/lodging/20000000/19300000/19290500/19290417/a1d31c61.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "https://images.trvl-media.com/lodging/20000000/19300000/19290500/19290417/03ea11ba.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "https://images.trvl-media.com/lodging/20000000/19300000/19290500/19290417/e9150f09.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "https://images.trvl-media.com/lodging/20000000/19300000/19290500/19290417/aa5279a7.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "https://images.trvl-media.com/lodging/20000000/19300000/19290500/19290417/8f2a0aef.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "https://images.trvl-media.com/lodging/20000000/19300000/19290500/19290417/f2b369eb.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "https://images.trvl-media.com/lodging/20000000/19300000/19290500/19290417/52137c30.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "https://images.trvl-media.com/lodging/20000000/19300000/19290500/19290417/a9ce0961.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "https://images.trvl-media.com/lodging/20000000/19300000/19290500/19290417/365e587d.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "https://images.trvl-media.com/lodging/20000000/19300000/19290500/19290417/9a6cd9e2.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "https://images.trvl-media.com/lodging/20000000/19300000/19290500/19290417/0d06ea0c.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+      ],
+      "descriptionEN": "The property’s grand ballroom accommodates up to 1,000 guests, making it ideal for conferences, weddings, and events. It is supported by five additional fully equipped meeting rooms for added guest comfort.",
+      "imageUrls": [
+        "https://images.weserv.nl/?url=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F20000000%2F19300000%2F19290500%2F19290417%2Fa1d31c61.jpg%3Fimpolicy%3Dresizecrop%26rw%3D1200%26ra%3Dfit&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F20000000%2F19300000%2F19290500%2F19290417%2F03ea11ba.jpg%3Fimpolicy%3Dresizecrop%26rw%3D1200%26ra%3Dfit&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F20000000%2F19300000%2F19290500%2F19290417%2Fe9150f09.jpg%3Fimpolicy%3Dresizecrop%26rw%3D1200%26ra%3Dfit&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F20000000%2F19300000%2F19290500%2F19290417%2Faa5279a7.jpg%3Fimpolicy%3Dresizecrop%26rw%3D1200%26ra%3Dfit&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F20000000%2F19300000%2F19290500%2F19290417%2F8f2a0aef.jpg%3Fimpolicy%3Dresizecrop%26rw%3D1200%26ra%3Dfit&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F20000000%2F19300000%2F19290500%2F19290417%2Ff2b369eb.jpg%3Fimpolicy%3Dresizecrop%26rw%3D1200%26ra%3Dfit&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F20000000%2F19300000%2F19290500%2F19290417%2F52137c30.jpg%3Fimpolicy%3Dresizecrop%26rw%3D1200%26ra%3Dfit&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F20000000%2F19300000%2F19290500%2F19290417%2Fa9ce0961.jpg%3Fimpolicy%3Dresizecrop%26rw%3D1200%26ra%3Dfit&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F20000000%2F19300000%2F19290500%2F19290417%2F365e587d.jpg%3Fimpolicy%3Dresizecrop%26rw%3D1200%26ra%3Dfit&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F20000000%2F19300000%2F19290500%2F19290417%2F9a6cd9e2.jpg%3Fimpolicy%3Dresizecrop%26rw%3D1200%26ra%3Dfit&w=1200&fit=cover",
+        "https://images.weserv.nl/?url=https%3A%2F%2Fimages.trvl-media.com%2Flodging%2F20000000%2F19300000%2F19290500%2F19290417%2F0d06ea0c.jpg%3Fimpolicy%3Dresizecrop%26rw%3D1200%26ra%3Dfit&w=1200&fit=cover"
+      ],
+      "imageSource": "user-provided"
     }
   ],
   "independentHalls": [
@@ -3155,5 +3240,5 @@
   ],
   "imagePolicyNote": "Main goal: ensure images render reliably in a local HTML file. For sources that block hotlinking/CORP, an image proxy (images.weserv.nl) is used as a fallback.",
   "schemaVersion": "1.1",
-  "enrichedAt": "2026-02-13T00:00:00Z"
+  "enrichedAt": "2026-02-13T23:06:03.899660Z"
 }

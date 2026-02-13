@@ -22,7 +22,9 @@ import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
@@ -38,6 +40,10 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FloatingActionButton
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.Icon
@@ -52,7 +58,10 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -70,6 +79,7 @@ import coil.compose.AsyncImage
 import com.example.qa3at.R
 import com.example.qa3at.domain.model.Venue
 import com.example.qa3at.ui.components.Qa3atTopBar
+import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -80,6 +90,9 @@ fun VenueListScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val listState = rememberLazyListState()
+    val sheetState = rememberModalBottomSheetState()
+    var showFilters by remember { mutableStateOf(false) }
+    val scope = rememberCoroutineScope()
 
     // Detect when user scrolls near the bottom to load more
     val shouldLoadMore by remember {
@@ -102,137 +115,22 @@ fun VenueListScreen(
                 title = stringResource(R.string.available_venues),
                 onBack = onBack
             )
+        },
+        floatingActionButton = {
+            FloatingActionButton(
+                onClick = { showFilters = true },
+                containerColor = MaterialTheme.colorScheme.primary,
+                contentColor = MaterialTheme.colorScheme.onPrimary
+            ) {
+                Icon(Icons.Filled.FilterList, contentDescription = "تصفية")
+            }
         }
     ) { paddingValues ->
-        Column(
+        Box(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(paddingValues)
         ) {
-            // ──── Search Bar ────
-            OutlinedTextField(
-                value = uiState.searchQuery,
-                onValueChange = { viewModel.updateSearchQuery(it) },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 16.dp, vertical = 8.dp),
-                placeholder = { Text("ابحث عن قاعة أو فندق...") },
-                leadingIcon = {
-                    Icon(
-                        imageVector = Icons.Filled.Search,
-                        contentDescription = null,
-                        tint = MaterialTheme.colorScheme.onSurfaceVariant
-                    )
-                },
-                trailingIcon = {
-                    if (uiState.searchQuery.isNotEmpty()) {
-                        IconButton(onClick = { viewModel.updateSearchQuery("") }) {
-                            Icon(Icons.Filled.Close, contentDescription = "مسح")
-                        }
-                    }
-                },
-                shape = RoundedCornerShape(16.dp),
-                singleLine = true,
-                colors = OutlinedTextFieldDefaults.colors(
-                    focusedBorderColor = MaterialTheme.colorScheme.primary,
-                    unfocusedBorderColor = MaterialTheme.colorScheme.outline.copy(alpha = 0.3f),
-                    focusedContainerColor = MaterialTheme.colorScheme.surface,
-                    unfocusedContainerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f)
-                )
-            )
-
-            // ──── Category Filter ────
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 16.dp, vertical = 4.dp),
-                horizontalArrangement = Arrangement.spacedBy(8.dp)
-            ) {
-                FilterChip(
-                    selected = uiState.selectedCategory == "all",
-                    onClick = { viewModel.updateCategory("all") },
-                    label = { Text("الكل") },
-                    leadingIcon = if (uiState.selectedCategory == "all") {
-                        { Icon(Icons.Filled.FilterList, contentDescription = null, modifier = Modifier.size(16.dp)) }
-                    } else null
-                )
-                FilterChip(
-                    selected = uiState.selectedCategory == "hotel",
-                    onClick = { viewModel.updateCategory("hotel") },
-                    label = { Text("فنادق") },
-                    leadingIcon = if (uiState.selectedCategory == "hotel") {
-                        { Icon(Icons.Filled.Hotel, contentDescription = null, modifier = Modifier.size(16.dp)) }
-                    } else null
-                )
-                FilterChip(
-                    selected = uiState.selectedCategory == "hall",
-                    onClick = { viewModel.updateCategory("hall") },
-                    label = { Text("قاعات") },
-                    leadingIcon = if (uiState.selectedCategory == "hall") {
-                        { Icon(Icons.Filled.MeetingRoom, contentDescription = null, modifier = Modifier.size(16.dp)) }
-                    } else null
-                )
-            }
-
-            // ──── City Filter ────
-            if (uiState.cities.isNotEmpty()) {
-                LazyRow(
-                    modifier = Modifier.fillMaxWidth(),
-                    contentPadding = PaddingValues(horizontal = 16.dp),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp)
-                ) {
-                    item {
-                        FilterChip(
-                            selected = uiState.selectedCity == "all",
-                            onClick = { viewModel.updateCity("all") },
-                            label = { Text("كل المدن") }
-                        )
-                    }
-                    items(uiState.cities) { city ->
-                        FilterChip(
-                            selected = uiState.selectedCity == city,
-                            onClick = { viewModel.updateCity(city) },
-                            label = { Text(city) }
-                        )
-                    }
-                }
-            }
-
-            // ──── Sort Options ────
-            LazyRow(
-                modifier = Modifier.fillMaxWidth(),
-                contentPadding = PaddingValues(horizontal = 16.dp, vertical = 4.dp),
-                horizontalArrangement = Arrangement.spacedBy(8.dp)
-            ) {
-                val sortOptions = listOf(
-                    "default" to "الأصلي",
-                    "rating" to "التقييم ⭐",
-                    "price_low" to "السعر ↑",
-                    "price_high" to "السعر ↓",
-                    "capacity" to "السعة"
-                )
-                items(sortOptions) { (key, label) ->
-                    FilterChip(
-                        selected = uiState.selectedSort == key,
-                        onClick = { viewModel.updateSort(key) },
-                        label = { Text(label, fontSize = 12.sp) },
-                        colors = FilterChipDefaults.filterChipColors(
-                            selectedContainerColor = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f)
-                        )
-                    )
-                }
-            }
-
-            Spacer(modifier = Modifier.height(4.dp))
-
-            // ──── Results Count ────
-            Text(
-                text = "${uiState.filteredVenues.size} نتيجة",
-                modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
-
             // ──── Loading State ────
             if (uiState.isLoading && uiState.displayedVenues.isEmpty()) {
                 Box(
@@ -261,38 +159,54 @@ fun VenueListScreen(
             }
             // ──── Empty State ────
             else if (uiState.filteredVenues.isEmpty()) {
-                Box(
-                    modifier = Modifier.fillMaxSize(),
-                    contentAlignment = Alignment.Center
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(16.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center
                 ) {
-                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                        Icon(
-                            imageVector = Icons.Filled.Search,
-                            contentDescription = null,
-                            modifier = Modifier.size(64.dp),
-                            tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f)
-                        )
-                        Spacer(modifier = Modifier.height(16.dp))
-                        Text(
-                            text = "لا توجد نتائج",
-                            style = MaterialTheme.typography.titleMedium,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant
-                        )
-                        Text(
-                            text = "جرب تغيير الفلاتر أو البحث",
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f)
-                        )
-                    }
+                    Icon(
+                        imageVector = Icons.Filled.Search,
+                        contentDescription = null,
+                        modifier = Modifier.size(64.dp),
+                        tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f)
+                    )
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Text(
+                        text = "لا توجد نتائج",
+                        style = MaterialTheme.typography.titleMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                    Text(
+                        text = "استخدم زر التصفية لتغيير البحث",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f)
+                    )
                 }
             }
             // ──── Venue List ────
             else {
                 LazyColumn(
                     state = listState,
-                    contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp),
+                    contentPadding = PaddingValues(
+                        start = 16.dp, 
+                        end = 16.dp, 
+                        top = 16.dp, 
+                        bottom = 80.dp // Extra padding for FAB
+                    ),
                     verticalArrangement = Arrangement.spacedBy(16.dp)
                 ) {
+                    // Results Count Header
+                    item {
+                        Text(
+                            text = "${uiState.filteredVenues.size} نتيجة",
+                            style = MaterialTheme.typography.titleSmall,
+                            color = MaterialTheme.colorScheme.primary,
+                            modifier = Modifier.padding(bottom = 8.dp)
+                        )
+                    }
+
                     itemsIndexed(
                         items = uiState.displayedVenues,
                         key = { _, venue -> venue.id }
@@ -317,6 +231,184 @@ fun VenueListScreen(
                         }
                     }
                 }
+            }
+        }
+    }
+
+    if (showFilters) {
+        ModalBottomSheet(
+            onDismissRequest = { showFilters = false },
+            sheetState = sheetState
+        ) {
+            VenueFilterSheetContent(
+                uiState = uiState,
+                onSearchQueryChange = viewModel::updateSearchQuery,
+                onCategoryChange = viewModel::updateCategory,
+                onCityChange = viewModel::updateCity,
+                onSortChange = viewModel::updateSort,
+                onClose = { 
+                    scope.launch { sheetState.hide() }.invokeOnCompletion { 
+                        if (!sheetState.isVisible) {
+                            showFilters = false 
+                        }
+                    }
+                }
+            )
+        }
+    }
+}
+
+@Composable
+fun VenueFilterSheetContent(
+    uiState: VenueListUiState,
+    onSearchQueryChange: (String) -> Unit,
+    onCategoryChange: (String) -> Unit,
+    onCityChange: (String) -> Unit,
+    onSortChange: (String) -> Unit,
+    onClose: () -> Unit
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 24.dp)
+            .padding(bottom = 48.dp) // Extra padding at bottom
+            .verticalScroll(rememberScrollState())
+    ) {
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Text(
+                text = "تصفية البحث",
+                style = MaterialTheme.typography.headlineSmall,
+                fontWeight = FontWeight.Bold,
+                color = MaterialTheme.colorScheme.onSurface
+            )
+            IconButton(onClick = onClose) {
+                Icon(Icons.Filled.Close, contentDescription = "إغلاق")
+            }
+        }
+        
+        Spacer(modifier = Modifier.height(24.dp))
+
+        // ──── Search Bar ────
+        Text(
+            text = "بحث",
+            style = MaterialTheme.typography.titleMedium,
+            fontWeight = FontWeight.SemiBold,
+            modifier = Modifier.padding(bottom = 8.dp)
+        )
+        OutlinedTextField(
+            value = uiState.searchQuery,
+            onValueChange = onSearchQueryChange,
+            modifier = Modifier.fillMaxWidth(),
+            placeholder = { Text("اسم القاعة أو الفندق...") },
+            leadingIcon = {
+                Icon(Icons.Filled.Search, contentDescription = null)
+            },
+            trailingIcon = {
+                if (uiState.searchQuery.isNotEmpty()) {
+                    IconButton(onClick = { onSearchQueryChange("") }) {
+                        Icon(Icons.Filled.Close, contentDescription = "مسح")
+                    }
+                }
+            },
+            shape = RoundedCornerShape(12.dp),
+            singleLine = true,
+            colors = OutlinedTextFieldDefaults.colors(
+                focusedBorderColor = MaterialTheme.colorScheme.primary,
+                unfocusedBorderColor = MaterialTheme.colorScheme.outline
+            )
+        )
+
+        HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+
+        // ──── Category Filter ────
+        Text(
+            text = "نوع المكان",
+            style = MaterialTheme.typography.titleMedium,
+            fontWeight = FontWeight.SemiBold,
+            modifier = Modifier.padding(bottom = 8.dp)
+        )
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            FilterChip(
+                selected = uiState.selectedCategory == "all",
+                onClick = { onCategoryChange("all") },
+                label = { Text("الكل") }
+            )
+            FilterChip(
+                selected = uiState.selectedCategory == "hotel",
+                onClick = { onCategoryChange("hotel") },
+                label = { Text("فنادق") },
+                leadingIcon = if (uiState.selectedCategory == "hotel") {
+                    { Icon(Icons.Filled.Hotel, contentDescription = null, modifier = Modifier.size(16.dp)) }
+                } else null
+            )
+            FilterChip(
+                selected = uiState.selectedCategory == "hall",
+                onClick = { onCategoryChange("hall") },
+                label = { Text("قاعات") },
+                leadingIcon = if (uiState.selectedCategory == "hall") {
+                    { Icon(Icons.Filled.MeetingRoom, contentDescription = null, modifier = Modifier.size(16.dp)) }
+                } else null
+            )
+        }
+
+        HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+
+        // ──── City Filter ────
+        Text(
+            text = "المدينة",
+            style = MaterialTheme.typography.titleMedium,
+            fontWeight = FontWeight.SemiBold,
+            modifier = Modifier.padding(bottom = 8.dp)
+        )
+        if (uiState.cities.isNotEmpty()) {
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                 FilterChip(
+                    selected = uiState.selectedCity == "all",
+                    onClick = { onCityChange("all") },
+                    label = { Text("كل المدن") }
+                )
+                uiState.cities.forEach { city ->
+                    FilterChip(
+                        selected = uiState.selectedCity == city,
+                        onClick = { onCityChange(city) },
+                        label = { Text(city) }
+                    )
+                }
+            }
+        }
+
+        HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
+
+        // ──── Sort Options ────
+        Text(
+            text = "الترتيب حسب",
+            style = MaterialTheme.typography.titleMedium,
+            fontWeight = FontWeight.SemiBold,
+            modifier = Modifier.padding(bottom = 8.dp)
+        )
+        val sortOptions = listOf(
+            "default" to "المقترح (الأفضل)",
+            "rating" to "التقييم الأعلى ⭐",
+            "price_low" to "السعر: الأقل أولاً",
+            "price_high" to "السعر: الأكثر أولاً",
+            "capacity" to "السعة الأكبر"
+        )
+        Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            sortOptions.forEach { (key, label) ->
+                FilterChip(
+                    selected = uiState.selectedSort == key,
+                    onClick = { onSortChange(key) },
+                    label = { Text(label) },
+                    colors = FilterChipDefaults.filterChipColors(
+                        selectedContainerColor = MaterialTheme.colorScheme.primaryContainer,
+                        selectedLabelColor = MaterialTheme.colorScheme.onPrimaryContainer
+                    ),
+                    modifier = Modifier.fillMaxWidth()
+                )
             }
         }
     }
