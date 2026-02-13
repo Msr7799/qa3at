@@ -1,0 +1,364 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String
+  phone     String?
+  role      Role     @default(USER)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  bookings Booking[]
+  reviews  Review[]
+
+  @@map("users")
+}
+
+enum Role {
+  USER
+  ADMIN
+  VENDOR
+}
+
+model Vendor {
+  id            String   @id @default(cuid())
+  name          String
+  nameAr        String
+  email         String   @unique
+  phone         String
+  description   String?
+  descriptionAr String?
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  venues Venue[]
+
+  @@map("vendors")
+}
+
+model Venue {
+  id             String   @id @default(cuid())
+  name           String
+  nameAr         String
+  description    String
+  descriptionAr  String
+  address        String
+  addressAr      String
+  city           String
+  cityAr         String
+  latitude       Float?
+  longitude      Float?
+  capacity       Int
+  minCapacity    Int      @default(50)
+  pricePerPerson Float
+  basePrice      Float
+  rating         Float    @default(0)
+  reviewCount    Int      @default(0)
+  amenities      String[]
+  isActive       Boolean  @default(true)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  vendorId String
+  vendor   Vendor @relation(fields: [vendorId], references: [id])
+
+  // Enhanced fields
+  type          VenueType @default(HOTEL)
+  pricingModel  String? // "per_person", "custom_quote", etc.
+  subVenues     Json? // Array of sub-venues (halls, gardens)
+  contacts      Json? // Phone, email, whatsapp
+  parking       Json? // Parking info
+  accessibility Json? // Accessibility info
+
+  photos       VenuePhoto[]
+  packages     Package[] // Packages specific to this venue
+  availability VenueAvailability[]
+  bookings     Booking[]
+  reviews      Review[]
+
+  @@index([city])
+  @@index([capacity])
+  @@index([isActive])
+  @@map("venues")
+}
+
+enum VenueType {
+  HOTEL
+  HALL
+  RESORT
+}
+
+model VenuePhoto {
+  id        String   @id @default(cuid())
+  url       String
+  caption   String?
+  captionAr String?
+  isPrimary Boolean  @default(false)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+
+  venueId String
+  venue   Venue  @relation(fields: [venueId], references: [id], onDelete: Cascade)
+
+  @@map("venue_photos")
+}
+
+model TimeSlot {
+  id        String  @id @default(cuid())
+  name      String
+  nameAr    String
+  startTime String
+  endTime   String
+  isActive  Boolean @default(true)
+
+  availability VenueAvailability[]
+  bookings     Booking[]
+
+  @@map("time_slots")
+}
+
+model VenueAvailability {
+  id            String   @id @default(cuid())
+  date          DateTime @db.Date
+  isAvailable   Boolean  @default(true)
+  priceOverride Float?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  venueId String
+  venue   Venue  @relation(fields: [venueId], references: [id], onDelete: Cascade)
+
+  slotId String
+  slot   TimeSlot @relation(fields: [slotId], references: [id])
+
+  @@unique([venueId, date, slotId])
+  @@index([date])
+  @@map("venue_availability")
+}
+
+model Package {
+  id             String           @id @default(cuid())
+  name           String
+  nameAr         String? // Made optional as JSON might not have it
+  description    String? // Made optional
+  descriptionAr  String?
+  tier           PackageTier? // Made optional
+  category       PackageCategory? // Made optional
+  basePrice      Float? // Made optional
+  pricePerPerson Float            @default(0)
+  imageUrl       String?
+  isActive       Boolean          @default(true)
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+
+  venueId String? // Link to specific venue
+  venue   Venue?  @relation(fields: [venueId], references: [id], onDelete: Cascade)
+
+  items        PackageItem[]
+  bookingItems BookingItem[]
+
+  @@map("packages")
+}
+
+enum PackageTier {
+  SILVER
+  GOLD
+  DIAMOND
+}
+
+enum PackageCategory {
+  VENUE
+  DECORATION
+  CATERING
+  PHOTOGRAPHY
+  MUSIC
+}
+
+model PackageItem {
+  id            String  @id @default(cuid())
+  name          String
+  nameAr        String
+  description   String?
+  descriptionAr String?
+  quantity      Int     @default(1)
+
+  packageId String
+  package   Package @relation(fields: [packageId], references: [id], onDelete: Cascade)
+
+  @@map("package_items")
+}
+
+model Addon {
+  id            String        @id @default(cuid())
+  name          String
+  nameAr        String
+  description   String
+  descriptionAr String
+  category      AddonCategory
+  price         Float
+  priceType     PriceType     @default(FIXED)
+  imageUrl      String?
+  isActive      Boolean       @default(true)
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  bookingItems BookingItem[]
+
+  @@map("addons")
+}
+
+enum AddonCategory {
+  STAGE
+  FLOWERS
+  DECORATION
+  CATERING
+  CAKE
+  PHOTOGRAPHY
+  MUSIC
+}
+
+enum PriceType {
+  FIXED
+  PER_PERSON
+  PER_HOUR
+}
+
+model Booking {
+  id         String        @id @default(cuid())
+  date       DateTime      @db.Date
+  guestCount Int
+  status     BookingStatus @default(PENDING)
+  notes      String?
+  subtotal   Float
+  tax        Float
+  total      Float
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id])
+
+  venueId String
+  venue   Venue  @relation(fields: [venueId], references: [id])
+
+  slotId String
+  slot   TimeSlot @relation(fields: [slotId], references: [id])
+
+  items    BookingItem[]
+  payments Payment[]
+
+  @@index([userId])
+  @@index([venueId])
+  @@index([status])
+  @@index([date])
+  @@map("bookings")
+}
+
+enum BookingStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+  COMPLETED
+}
+
+model BookingItem {
+  id         String          @id @default(cuid())
+  type       BookingItemType
+  name       String
+  nameAr     String
+  quantity   Int             @default(1)
+  unitPrice  Float
+  totalPrice Float
+  createdAt  DateTime        @default(now())
+
+  bookingId String
+  booking   Booking @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+
+  packageId String?
+  package   Package? @relation(fields: [packageId], references: [id])
+
+  addonId String?
+  addon   Addon?  @relation(fields: [addonId], references: [id])
+
+  @@map("booking_items")
+}
+
+enum BookingItemType {
+  VENUE
+  PACKAGE
+  ADDON
+}
+
+model Payment {
+  id            String        @id @default(cuid())
+  amount        Float
+  currency      String        @default("BHD")
+  method        PaymentMethod
+  status        PaymentStatus @default(PENDING)
+  transactionId String?
+  paidAt        DateTime?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  bookingId String
+  booking   Booking @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+
+  @@map("payments")
+}
+
+enum PaymentMethod {
+  CARD
+  APPLE_PAY
+  MADA
+  BANK_TRANSFER
+}
+
+enum PaymentStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+  REFUNDED
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  rating    Int
+  comment   String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id])
+
+  venueId String
+  venue   Venue  @relation(fields: [venueId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, venueId])
+  @@map("reviews")
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  action    String
+  entity    String
+  entityId  String
+  userId    String?
+  metadata  Json?
+  createdAt DateTime @default(now())
+
+  @@index([entity, entityId])
+  @@index([userId])
+  @@map("audit_logs")
+}

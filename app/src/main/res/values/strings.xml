@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Qa3at</string>
+    <string name="app_tagline">Your perfect wedding venue</string>
+
+    <!-- Navigation -->
+    <string name="back">Back</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="assistant">Assistant</string>
+
+    <!-- Common Actions -->
+    <string name="loading">Loading…</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="retry">Retry</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="continue_text">Continue</string>
+    <string name="save">Save</string>
+    <string name="send">Send</string>
+    <string name="filter">Filter</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+
+    <!-- Home Screen -->
+    <string name="hero_title">Plan Your Perfect Day</string>
+    <string name="hero_subtitle">Find the best venues and services for your special occasion</string>
+    <string name="start_search">Start Searching</string>
+    <string name="our_services">Our Services</string>
+
+    <!-- Services -->
+    <string name="service_venues">Venues</string>
+    <string name="service_venues_subtitle">Wedding halls and hotels</string>
+    <string name="service_decoration">Stage and Decoration</string>
+    <string name="service_decoration_subtitle">Kosha, flowers, and decorations</string>
+    <string name="service_catering">Catering</string>
+    <string name="service_catering_subtitle">Buffet packages and wedding cake</string>
+    <string name="service_entertainment">Entertainment</string>
+    <string name="service_entertainment_subtitle">Photography and music</string>
+    <string name="service_photography">Photography</string>
+    <string name="service_photography_subtitle">Photos &amp; Videos</string>
+    <string name="service_music">DJ &amp; Music</string>
+    <string name="service_music_subtitle">DJ, Singer, Bands</string>
+
+    <!-- Search Screen -->
+    <string name="search_venues">Search Venues</string>
+    <string name="find_perfect_venue">Find Your Perfect Venue</string>
+    <string name="city">City</string>
+    <string name="select_city">Select a city</string>
+    <string name="date">Date</string>
+    <string name="select_date">Select a date</string>
+    <string name="guests">Guests</string>
+    <string name="enter_guest_count">Enter guest count</string>
+    <string name="time_slot">Time Slot</string>
+    <string name="select_time_slot">Select a time slot</string>
+    <string name="guests_label">guests</string>
+
+    <!-- Venue List -->
+    <string name="available_venues">Available Venues</string>
+    <string name="recommended">Recommended</string>
+    <string name="price_low">Price: Low</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="no_venues_found">No venues found</string>
+    <string name="try_different_filters">Try adjusting your search filters</string>
+
+    <!-- Venue Detail -->
+    <string name="about_venue">About This Venue</string>
+    <string name="amenities">Amenities</string>
+    <string name="pricing">Pricing</string>
+    <string name="base_price">Base Price</string>
+    <string name="per_person">Per Person</string>
+    <string name="starting_from">Starting from</string>
+    <string name="book_now">Book Now</string>
+
+    <!-- Package Builder -->
+    <string name="build_package">Build Your Package</string>
+    <string name="estimated_total">Estimated Total</string>
+    <string name="step_decoration">Decoration</string>
+    <string name="step_decoration_desc">Stage and flowers</string>
+    <string name="step_catering">Catering</string>
+    <string name="step_catering_desc">Buffet and cake</string>
+    <string name="step_photography">Photography</string>
+    <string name="step_photography_desc">Photo and video</string>
+    <string name="step_music">Music</string>
+    <string name="step_music_desc">DJ and live band</string>
+
+    <!-- Summary Screen -->
+    <string name="booking_summary">Booking Summary</string>
+    <string name="booking_details">Booking Details</string>
+    <string name="booking_id_label">Booking ID</string>
+    <string name="date_label">Date</string>
+    <string name="time_slot_label">Time Slot</string>
+    <string name="guests_count_label">Guests</string>
+    <string name="invoice_breakdown">Invoice Breakdown</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="vat_10">VAT (10%)</string>
+    <string name="total">Total</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="proceed_to_payment">Proceed to Payment</string>
+
+    <!-- Payment Screen -->
+    <string name="payment">Payment</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="total_to_pay">Total to Pay</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="payment_card">Credit/Debit Card</string>
+    <string name="payment_card_desc">Visa, Mastercard, Amex</string>
+    <string name="payment_mada">Mada</string>
+    <string name="payment_mada_desc">Debit cards</string>
+    <string name="payment_apple_pay">Apple Pay</string>
+    <string name="payment_apple_pay_desc">Pay with Apple Pay</string>
+    <string name="payment_bank">Bank Transfer</string>
+    <string name="payment_bank_desc">Direct bank transfer</string>
+    <string name="payment_info">Payment Information</string>
+    <string name="payment_info_text">Your payment is secure and encrypted. A confirmation email will be sent upon successful payment.</string>
+
+    <!-- My Bookings -->
+    <string name="no_bookings">No Bookings Yet</string>
+    <string name="no_bookings_subtitle">Your bookings will appear here</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_confirmed">Confirmed</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="status_completed">Completed</string>
+
+    <!-- Assistant -->
+    <string name="assistant_name">Qa3at Assistant</string>
+    <string name="type_message">Type a message…</string>
+    <string name="tier_budget">Budget</string>
+    <string name="tier_balanced">Balanced</string>
+    <string name="tier_luxury">Luxury</string>
+
+    <!-- Auth Screens -->
+    <string name="login">Login</string>
+    <string name="login_subtitle">Welcome back! Sign in to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="no_account_register">Don\'t have an account? Register</string>
+    <string name="create_account">Create Account</string>
+    <string name="register_subtitle">Join us to start planning your event</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="have_account_login">Already have an account? Login</string>
+
+    <!-- Profile Screen -->
+    <string name="settings">Settings</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="notifications">Notifications</string>
+    <string name="language">Language</string>
+    <string name="privacy_security">Privacy &amp; Security</string>
+    <string name="support">Support</string>
+    <string name="help_center">Help Center</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+
+    <!-- Filters -->
+    <string name="filters">Filters</string>
+    <string name="price_range">Price Range</string>
+    <string name="capacity">Capacity</string>
+    <string name="apply_filters">Apply Filters</string>
+</resources>

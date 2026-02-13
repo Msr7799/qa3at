@@ -1,0 +1,82 @@
+# ===========================
+# Android / Gradle
+# ===========================
+*.iml
+.gradle/
+/local.properties
+local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures
+.externalNativeBuild
+.cxx
+
+# ===========================
+# Keystore / Secrets
+# ===========================
+keystore.properties
+*.jks
+*.keystore
+
+# ===========================
+# Backend
+# ===========================
+backend/.env
+backend/.env.local
+backend/.env.production
+backend/node_modules/
+backend/dist/
+backend/.env.example
+
+# ===========================
+# Environment / Config files
+# ===========================
+.env
+.env.local
+.env.production
+.env.*.local
+
+# ===========================
+# Debug / Docs / Temp
+# ===========================
+api-and-pic-debug/
+docs/
+
+# ===========================
+# Node modules (any location)
+# ===========================
+node_modules/
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.cursor/
+*.swp
+*.swo
+*~
+
+# ===========================
+# OS generated files
+# ===========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===========================
+# Gemini / Agent folders
+# ===========================
+.gemini/
+.agent/
+.agents/
+
+# ===========================
+# Kotlin / Java
+# ===========================
+*.class
+*.log
+*.jar
+!gradle/wrapper/gradle-wrapper.jar

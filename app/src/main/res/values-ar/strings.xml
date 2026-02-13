@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قاعات</string>
+    <string name="app_tagline">وجهتك المثالية للمناسبات</string>
+
+    <!-- Navigation -->
+    <string name="back">رجوع</string>
+    <string name="home">الرئيسية</string>
+    <string name="search">بحث</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="my_bookings">حجوزاتي</string>
+    <string name="assistant">المساعد</string>
+
+    <!-- Common Actions -->
+    <string name="loading">جاري التحميل...</string>
+    <string name="error_occurred">حدث خطأ</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="confirm">تأكيد</string>
+    <string name="cancel">إلغاء</string>
+    <string name="next">التالي</string>
+    <string name="skip">تخطي</string>
+    <string name="continue_text">استمرار</string>
+    <string name="save">حفظ</string>
+    <string name="send">إرسال</string>
+    <string name="filter">تصفية</string>
+    <string name="favorite">مفضلة</string>
+    <string name="share">مشاركة</string>
+
+    <!-- Home Screen -->
+    <string name="hero_title">خطط ليومك المثالي</string>
+    <string name="hero_subtitle">ابحث عن أفضل القاعات والخدمات لمناسباتك الخاصة</string>
+    <string name="start_search">ابدا البحث</string>
+    <string name="our_services">خدماتنا</string>
+
+    <!-- Services -->
+    <string name="service_venues">قاعات الأفراح</string>
+    <string name="service_venues_subtitle">قاعات زفاف وفنادق</string>
+    <string name="service_decoration">مسرح وديكور</string>
+    <string name="service_decoration_subtitle">كوشة، زهور، وديكورات</string>
+    <string name="service_catering">الطعام والبوفيه</string>
+    <string name="service_catering_subtitle">باقات بوفيه وكعك زفاف</string>
+    <string name="service_entertainment">ترفيه</string>
+    <string name="service_entertainment_subtitle">تصوير وموسيقى</string>
+    <string name="service_photography">التصوير</string>
+    <string name="service_photography_subtitle">صور وفيديو</string>
+    <string name="service_music">دي جي وموسيقى</string>
+    <string name="service_music_subtitle">دي جي، مغني، وفرق موسيقية</string>
+
+    <!-- Search Screen -->
+    <string name="search_venues">بحث عن قاعات</string>
+    <string name="find_perfect_venue">ابحث عن القاعة المثالية</string>
+    <string name="city">المدينة</string>
+    <string name="select_city">اختر المدينة</string>
+    <string name="date">التاريخ</string>
+    <string name="select_date">اختر التاريخ</string>
+    <string name="guests">الضيوف</string>
+    <string name="enter_guest_count">أدخل عدد الضيوف</string>
+    <string name="time_slot">الوقت</string>
+    <string name="select_time_slot">اختر الوقت</string>
+    <string name="guests_label">ضيف</string>
+
+    <!-- Venue List -->
+    <string name="available_venues">القاعات المتاحة</string>
+    <string name="recommended">موصى به</string>
+    <string name="price_low">السعر: الأقل</string>
+    <string name="top_rated">الأعلى تقييماً</string>
+    <string name="no_venues_found">لم يتم العثور على قاعات</string>
+    <string name="try_different_filters">جرب تغيير فلاتر البحث</string>
+
+    <!-- Venue Detail -->
+    <string name="about_venue">عن القاعة</string>
+    <string name="amenities">المرافق</string>
+    <string name="pricing">الأسعار</string>
+    <string name="base_price">السعر الأساسي</string>
+    <string name="per_person">للشخص</string>
+    <string name="starting_from">يبدأ من</string>
+    <string name="book_now">احجز الآن</string>
+
+    <!-- Package Builder -->
+    <string name="build_package">صمم باقتك</string>
+    <string name="estimated_total">إجمالي التقديرات</string>
+    <string name="step_decoration">الديكور</string>
+    <string name="step_decoration_desc">المسرح والزهور</string>
+    <string name="step_catering">الطعام</string>
+    <string name="step_catering_desc">بوفيه وكعكة</string>
+    <string name="step_photography">التصوير</string>
+    <string name="step_photography_desc">صور وفيديو</string>
+    <string name="step_music">الموسيقى</string>
+    <string name="step_music_desc">دي جي وفرقة</string>
+
+    <!-- Summary Screen -->
+    <string name="booking_summary">ملخص الحجز</string>
+    <string name="booking_details">تفاصيل الحجز</string>
+    <string name="booking_id_label">رقم الحجز</string>
+    <string name="date_label">التاريخ</string>
+    <string name="time_slot_label">الوقت</string>
+    <string name="guests_count_label">الضيوف</string>
+    <string name="invoice_breakdown">تفاصيل الفاتورة</string>
+    <string name="subtotal">المجموع الفرعي</string>
+    <string name="vat_10">ضريبة القيمة المضافة (10%)</string>
+    <string name="total">المجموع</string>
+    <string name="total_amount">المبلغ الإجمالي</string>
+    <string name="proceed_to_payment">المتابعة للدفع</string>
+
+    <!-- Payment Screen -->
+    <string name="payment">الدفع</string>
+    <string name="select_payment_method">اختر طريقة الدفع</string>
+    <string name="total_to_pay">المبلغ للدفع</string>
+    <string name="pay_now">ادفع الآن</string>
+    <string name="payment_card">بطاقة ائتمان / مدى</string>
+    <string name="payment_card_desc">فيزا، ماستركارد</string>
+    <string name="payment_mada">مدى</string>
+    <string name="payment_mada_desc">بطاقات الصراف</string>
+    <string name="payment_apple_pay">Apple Pay</string>
+    <string name="payment_apple_pay_desc">ادفع باستخدام Apple Pay</string>
+    <string name="payment_bank">تحويل بنكي</string>
+    <string name="payment_bank_desc">تحويل مباشر</string>
+    <string name="payment_info">معلومات الدفع</string>
+    <string name="payment_info_text">دفعك آمن ومشفر. سيتم إرسال تأكيد بالبريد الإلكتروني عند الدفع بنجاح.</string>
+
+    <!-- My Bookings -->
+    <string name="no_bookings">لا توجد حجوزات</string>
+    <string name="no_bookings_subtitle">ستظهر حجوزاتك هنا</string>
+    <string name="status_pending">قيد الانتظار</string>
+    <string name="status_confirmed">مؤكد</string>
+    <string name="status_cancelled">ملغي</string>
+    <string name="status_completed">مكتمل</string>
+
+    <!-- Assistant -->
+    <string name="assistant_name">مساعد قاعات</string>
+    <string name="type_message">اكتب رسالة...</string>
+    <string name="tier_budget">اقتصادي</string>
+    <string name="tier_balanced">متوازن</string>
+    <string name="tier_luxury">فاخر</string>
+
+    <!-- Auth Screens -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_subtitle">أهلاً بك مجدداً!</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="no_account_register">ليس لديك حساب؟ سجل الآن</string>
+    <string name="create_account">إنشاء حساب</string>
+    <string name="register_subtitle">انضم إلينا وابدأ التخطيط لمناسبتك</string>
+    <string name="register">تسجيل</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="have_account_login">لديك حساب بالفعل؟ تسجيل الدخول</string>
+
+    <!-- Profile Screen -->
+    <string name="settings">الإعدادات</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="language">اللغة</string>
+    <string name="privacy_security">الخصوصية والأمان</string>
+    <string name="support">الدعم الفني</string>
+    <string name="help_center">مركز المساعدة</string>
+    <string name="about">حول التطبيق</string>
+    <string name="logout">تسجيل الخروج</string>
+
+    <!-- Filters -->
+    <string name="filters">الفلاتر</string>
+    <string name="price_range">نطاق السعر</string>
+    <string name="capacity">السعة</string>
+    <string name="apply_filters">تطبيق الفلاتر</string>
+</resources>

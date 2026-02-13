@@ -1,0 +1,1039 @@
+{
+  "sourceBaseUrl": "https://bahrain.zafaf.net",
+  "generatedAt": "2026-02-12T22:48:22Z",
+  "hotels": [
+    {
+      "number": 1,
+      "starRating": 5,
+      "nid": "2557",
+      "titleArabic": "ذا دومين",
+      "titleEnglish": "The Domain Bahrain",
+      "url": "/hotels/manama/the-domain-bahrain-2557",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/the-domain-bahrain-2557",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "100-200",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/2557/preview_ksqxsoanzvyvanapqajzluxe.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/2557/preview_ksqxsoanzvyvanapqajzluxe.jpg",
+        "https://i.zafaf.net/providers/2557/thumb_ksqxsoanzvyvanapqajzluxe.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: 100-200 guests. Contact the venue for package and pricing details."
+    },
+    {
+      "number": 2,
+      "starRating": 5,
+      "nid": "46576",
+      "titleArabic": "داون تاون روتانا",
+      "titleEnglish": "Downtown Rotana",
+      "url": "/hotels/manama/downtown-rotana-46576",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/downtown-rotana-46576",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "500",
+      "price": "12 BHD/person (avg)",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/46576/preview_rifoyaimxyxxmbdedishhphmn.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/46576/preview_rifoyaimxyxxmbdedishhphmn.jpg",
+        "https://i.zafaf.net/providers/46576/thumb_rifoyaimxyxxmbdedishhphmn.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: up to 500 guests. Average cost shown: 12 BHD per person."
+    },
+    {
+      "number": 3,
+      "starRating": 5,
+      "nid": "43273",
+      "titleArabic": "فندق ومنتجع ذا آرت",
+      "titleEnglish": "The Art Hotelresort",
+      "url": "/hotels/manama/the-art-hotelresort-43273",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/the-art-hotelresort-43273",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "500",
+      "maxGuestsIndoor": "500+",
+      "price": "BD 21++ per person (or BD 25.41 net per person)",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/43273/preview_ubhdhztnmzxwmraiosvtdffrj.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/43273/preview_ubhdhztnmzxwmraiosvtdffrj.jpg",
+        "https://i.zafaf.net/providers/43273/thumb_ubhdhztnmzxwmraiosvtdffrj.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Large indoor/outdoor setup; pricing notes on the listing include BD 21++ per person (or BD 25.41 net)."
+    },
+    {
+      "number": 4,
+      "starRating": 5,
+      "nid": "2354",
+      "titleArabic": "ماجستيك أرجان من روتانا",
+      "titleEnglish": "Majestic Arjaan By Rotana",
+      "url": "/hotels/manama/majestic-arjaan-by-rotana-2354",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/majestic-arjaan-by-rotana-2354",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "50-100",
+      "price": "14 BHD/person (avg)",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/2354/preview_xwxtmjejlcwxufelgqgcilbsw.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/2354/preview_xwxtmjejlcwxufelgqgcilbsw.jpg",
+        "https://i.zafaf.net/providers/2354/thumb_xwxtmjejlcwxufelgqgcilbsw.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: 50-100 guests. Average cost shown: 14 BHD per person."
+    },
+    {
+      "number": 5,
+      "starRating": 5,
+      "nid": "506",
+      "titleArabic": "فندق موفنبيك البحرين",
+      "titleEnglish": "Movenpick Hotel Bahrain",
+      "url": "/hotels/manama/movenpick-hotel-bahrain-506",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/movenpick-hotel-bahrain-506",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "500",
+      "maxGuestsIndoor": "500",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://m.ahstatic.com/is/image/accorhotels/Bahrain_xxxxxxxxxx_i118307",
+      "photos": [
+        "https://i.zafaf.net/providers/506/preview_yXMCuKcMUqpuGpUExCXNhX.jpg",
+        "https://i.zafaf.net/providers/506/thumb_yXMCuKcMUqpuGpUExCXNhX.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor and outdoor capacities shown up to ~500 guests. Contact the venue for package and pricing details.",
+      "imageUrls": [
+        "https://m.ahstatic.com/is/image/accorhotels/Bahrain_xxxxxxxxxx_i118307",
+        "https://i.zafaf.net/providers/506/preview_yXMCuKcMUqpuGpUExCXNhX.jpg",
+        "https://i.zafaf.net/providers/506/thumb_yXMCuKcMUqpuGpUExCXNhX.jpg"
+      ]
+    },
+    {
+      "number": 6,
+      "starRating": 5,
+      "nid": "500",
+      "titleArabic": "كراون بلازا البحرين",
+      "titleEnglish": "Crowne Plaza Bahrain",
+      "url": "/hotels/manama/crowne-plaza-bahrain-500",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/crowne-plaza-bahrain-500",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "500+",
+      "maxGuestsIndoor": "500",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://digital.ihg.com/is/image/ihg/crowne-plaza-manama-10460037897-2x1?wid=1100",
+      "photos": [
+        "https://i.zafaf.net/providers/500/preview_DNIVwIzNKYdYBoZsoWgGLqp68.jpg",
+        "https://i.zafaf.net/providers/500/thumb_DNIVwIzNKYdYBoZsoWgGLqp68.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity up to 500; outdoor capacity 500+ guests.",
+      "imageUrls": [
+        "https://digital.ihg.com/is/image/ihg/crowne-plaza-manama-10460037897-2x1?wid=1100",
+        "https://digital.ihg.com/is/image/ihg/crowne-plaza-manama-10460034541-2x1?wid=1100",
+        "https://i.zafaf.net/providers/500/preview_DNIVwIzNKYdYBoZsoWgGLqp68.jpg",
+        "https://i.zafaf.net/providers/500/thumb_DNIVwIzNKYdYBoZsoWgGLqp68.jpg"
+      ]
+    },
+    {
+      "number": 7,
+      "starRating": 5,
+      "nid": "464",
+      "titleArabic": "جولدن توليب البحرين",
+      "titleEnglish": "Golden Tulip Bahrain",
+      "url": "/hotels/manama/golden-tulip-bahrain-464",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/golden-tulip-bahrain-464",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "500+",
+      "maxGuestsIndoor": "500+",
+      "price": "14 BHD/person (avg)",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/464/preview_njnjcasadofifrnuzuxxygmwz.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/464/preview_njnjcasadofifrnuzuxxygmwz.jpg",
+        "https://i.zafaf.net/providers/464/thumb_njnjcasadofifrnuzuxxygmwz.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Large indoor/outdoor capacity (500+). Average cost shown: 14 BHD per person."
+    },
+    {
+      "number": 8,
+      "starRating": 5,
+      "nid": "46660",
+      "titleArabic": "لو ميريديان سيتي سنتر",
+      "titleEnglish": "Le Meridien City Centre",
+      "url": "/hotels/manama/le-meridien-city-centre-46660",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/le-meridien-city-centre-46660",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "50-100",
+      "price": "18 BHD/person (avg)",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://cache.marriott.com/is/image/marriotts7prod/bahmd-bahmd-event-26203-69282:Classic-Hor?fit=constrain&wid=1200",
+      "photos": [
+        "https://i.zafaf.net/providers/46660/preview_1369219_202109131619215583_03139.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: 50-100 guests. Average cost shown: 18 BHD per person.",
+      "imageUrls": [
+        "https://cache.marriott.com/is/image/marriotts7prod/bahmd-bahmd-event-26203-69282:Classic-Hor?fit=constrain&wid=1200",
+        "https://i.zafaf.net/providers/46660/preview_1369219_202109131619215583_03139.jpg"
+      ]
+    },
+    {
+      "number": 9,
+      "starRating": 5,
+      "nid": "475",
+      "titleArabic": "ريتز كارلتون هوتيل اند سبا البحرين",
+      "titleEnglish": "The Ritz Carlton Bahrain Hotel Spa",
+      "url": "/hotels/manama/the-ritz-carlton-bahrain-hotel-spa-475",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/the-ritz-carlton-bahrain-hotel-spa-475",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "500",
+      "maxGuestsIndoor": "500+",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://cache.marriott.com/is/image/marriotts7prod/rcbahra_00181_conversion1",
+      "photos": [
+        "https://i.zafaf.net/providers/475/preview_eN2DW6YnRqsXWLWhTtE7hR.jpg",
+        "https://i.zafaf.net/providers/475/thumb_eN2DW6YnRqsXWLWhTtE7hR.jpg"
+      ],
+      "descriptionEN": "Luxury hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity shown as 500+; outdoor capacity up to ~500. Contact for pricing.",
+      "imageUrls": [
+        "https://cache.marriott.com/is/image/marriotts7prod/rcbahra_00181_conversion1",
+        "https://cache.marriott.com/is/image/marriotts7prod/rcbahra-rcbahra_00062_conversion:Classic-Hor?fit=constrain&wid=1200",
+        "https://i.zafaf.net/providers/475/preview_eN2DW6YnRqsXWLWhTtE7hR.jpg",
+        "https://i.zafaf.net/providers/475/thumb_eN2DW6YnRqsXWLWhTtE7hR.jpg"
+      ]
+    },
+    {
+      "number": 10,
+      "starRating": 5,
+      "nid": "442",
+      "titleArabic": "فندق ومنتجع بلو راديسون ديبلومات",
+      "titleEnglish": "The Diplomat Radisson Blu Hotel Residence Spa",
+      "url": "/hotels/manama/the-diplomat-radisson-blu-hotel-residence-spa-442",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/the-diplomat-radisson-blu-hotel-residence-spa-442",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "500+",
+      "maxGuestsIndoor": "500+",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://media.radissonhotels.net/image/the-diplomat-radisson-blu-hotel-residence-spa-manama/wedding/16256-113890-f72028853_3XL.jpg?impolicy=HomeHero",
+      "photos": [
+        "https://i.zafaf.net/providers/442/preview_1369_202109081131311935_03129.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Large indoor/outdoor capacity (500+). Contact the venue for package and pricing details.",
+      "imageUrls": [
+        "https://media.radissonhotels.net/image/the-diplomat-radisson-blu-hotel-residence-spa-manama/wedding/16256-113890-f72028853_3XL.jpg?impolicy=HomeHero",
+        "https://i.zafaf.net/providers/442/preview_1369_202109081131311935_03129.jpg"
+      ]
+    },
+    {
+      "number": 11,
+      "starRating": 5,
+      "nid": "90001",
+      "titleArabic": "سوفيتيل البحرين الزلاق ثالاسا سي وسبا",
+      "titleEnglish": "Sofitel Bahrain Zallaq Thalassa Sea Spa",
+      "url": "/hotels/zallaq/sofitel-bahrain-zallaq-thalassa-sea-spa",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/zallaq/sofitel-bahrain-zallaq-thalassa-sea-spa",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "500+",
+      "maxGuestsIndoor": "500+",
+      "price": null,
+      "category": "Hotels",
+      "city": "Zallaq",
+      "mainImage": "https://m.ahstatic.com/is/image/accorhotels/aja_p_3319-36%3A16by9?dpr=on%2C1.5&fmt=jpg&hei=619&icc=sRGB&iccEmbed=true&op_usm=1.75%2C0.3%2C2%2C0&qlt=80&resMode=sharp2&wid=1100",
+      "photos": [],
+      "descriptionEN": "Luxury 5-star hotel wedding venue in Zallaq, listed on Zafaf.net. Large ballroom capacity (up to 1000 guests) and outdoor options. Contact for pricing.",
+      "imageUrls": [
+        "https://m.ahstatic.com/is/image/accorhotels/aja_p_3319-36%3A16by9?dpr=on%2C1.5&fmt=jpg&hei=619&icc=sRGB&iccEmbed=true&op_usm=1.75%2C0.3%2C2%2C0&qlt=80&resMode=sharp2&wid=1100",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/bc/40/a2/sofitel-bahrain-zallaq.jpg?w=1200&h=-1&s=1"
+      ]
+    },
+    {
+      "number": 12,
+      "starRating": 4,
+      "nid": "2444",
+      "titleArabic": "بيست ويسترن بلس اوليف",
+      "titleEnglish": "Best Western Plus The Olive",
+      "url": "/hotels/manama/best-western-plus-the-olive-2444",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/best-western-plus-the-olive-2444",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "500",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/2444/preview_2.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/2444/preview_2.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: up to 500 guests. Contact the venue for package and pricing details."
+    },
+    {
+      "number": 13,
+      "starRating": 4,
+      "nid": "46715",
+      "titleArabic": "فندق أس البحرين",
+      "titleEnglish": "S Hotel Bahrain",
+      "url": "/hotels/manama/s-hotel-bahrain-46715",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/s-hotel-bahrain-46715",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "100-200",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/46715/preview_ubnrqjytwjukiejqfpvcsheyr.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/46715/preview_ubnrqjytwjukiejqfpvcsheyr.jpg",
+        "https://i.zafaf.net/providers/46715/thumb_ubnrqjytwjukiejqfpvcsheyr.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: 100-200 guests. Contact the venue for package and pricing details."
+    },
+    {
+      "number": 14,
+      "starRating": 4,
+      "nid": "2410",
+      "titleArabic": "فندق المنزل",
+      "titleEnglish": "Al Manzil Hotel",
+      "url": "/hotels/manama/al-manzil-hotel-2410",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/al-manzil-hotel-2410",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "500+",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/2410/preview_1012275_a.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/2410/preview_1012275_a.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Large indoor capacity (500+). Contact the venue for package and pricing details."
+    },
+    {
+      "number": 15,
+      "starRating": 4,
+      "nid": "510",
+      "titleArabic": "منتجع وسبا ايليت",
+      "titleEnglish": "Elite Resort Spa",
+      "url": "/hotels/manama/elite-resort-spa-510",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/elite-resort-spa-510",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "500+",
+      "maxGuestsIndoor": null,
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/510/preview_QV47aTWuH3iy4ezJYkLC6J.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/510/preview_QV47aTWuH3iy4ezJYkLC6J.jpg",
+        "https://i.zafaf.net/providers/510/thumb_QV47aTWuH3iy4ezJYkLC6J.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Outdoor capacity shown 500+ guests. Contact the venue for full hall capacity and pricing details."
+    },
+    {
+      "number": 16,
+      "starRating": 4,
+      "nid": "2397",
+      "titleArabic": "ذا كي البحرين",
+      "titleEnglish": "The K Bahrain",
+      "url": "/hotels/manama/the-k-bahrain-2397",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/the-k-bahrain-2397",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "100-200",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/2397/thumb_1461023_202109080724442015_03111.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/2397/thumb_1461023_202109080724442015_03111.jpg",
+        "https://i.zafaf.net/providers/2397/thumb_1461023_202109080724442015_03112.jpg",
+        "https://i.zafaf.net/providers/2397/thumb_1461023_202109080724442015_03113.jpg",
+        "https://i.zafaf.net/providers/2397/thumb_1461023_202109080724442015_03114.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: 100-200 guests. Contact the venue for package and pricing details."
+    },
+    {
+      "number": 17,
+      "starRating": 4,
+      "nid": "45941",
+      "titleArabic": "فندق وأجنحة رمادا جزر أمواج",
+      "titleEnglish": "Ramada Hotel And Suites Amwaj Islands",
+      "url": "/hotels/manama/ramada-hotel-and-suites-amwaj-islands-45941",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/ramada-hotel-and-suites-amwaj-islands-45941",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "50-100",
+      "maxGuestsIndoor": "50-100",
+      "price": "BD 8++ per person",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.ytimg.com/vi/5GkNAC4wf9g/hqdefault.jpg",
+      "photos": [
+        "https://i.ytimg.com/vi/5GkNAC4wf9g/hqdefault.jpg",
+        "https://i.ytimg.com/vi/5GkNAC4wf9g/maxresdefault.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue listed on Zafaf.net. Indoor/outdoor capacity: 50-100 guests. Pricing note shown: BD 8++ per person."
+    },
+    {
+      "number": 18,
+      "starRating": 4,
+      "nid": "542",
+      "titleArabic": "فندق اليت سيف ريزيدينس",
+      "titleEnglish": "Elite Seef Residence Hotel",
+      "url": "/hotels/manama/elite-seef-residence-hotel-542",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/elite-seef-residence-hotel-542",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "<50",
+      "price": "10 BHD/person (avg)",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/542/preview_akwelvlvvczvqqkqvdqtymnfu.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/542/preview_akwelvlvvczvqqkqvdqtymnfu.jpg",
+        "https://i.zafaf.net/providers/542/thumb_akwelvlvvczvqqkqvdqtymnfu.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: under 50 guests. Average cost shown: 10 BHD per person."
+    },
+    {
+      "number": 19,
+      "starRating": 4,
+      "nid": "46707",
+      "titleArabic": "فندق بيسان الدولي",
+      "titleEnglish": "Baisan International Hotel",
+      "url": "/hotels/manama/baisan-international-hotel-46707",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/baisan-international-hotel-46707",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "100-200",
+      "price": "13 BHD/person (avg)",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/46707/preview_tpaetnprjhwczdnpvjjslpzbw.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/46707/preview_tpaetnprjhwczdnpvjjslpzbw.jpg",
+        "https://i.zafaf.net/providers/46707/thumb_tpaetnprjhwczdnpvjjslpzbw.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: 100-200 guests. Average cost shown: 13 BHD per person."
+    },
+    {
+      "number": 20,
+      "starRating": 4,
+      "nid": "46667",
+      "titleArabic": "فندق رامي روز",
+      "titleEnglish": "Ramee Rose Hotel",
+      "url": "/hotels/manama/ramee-rose-hotel-46667",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/ramee-rose-hotel-46667",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "500",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/46667/thumb_yxbmzgjrzbvkkwwxulavxmutr.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/46667/thumb_yxbmzgjrzbvkkwwxulavxmutr.jpg",
+        "https://i.zafaf.net/providers/46667/preview_xinfpgboxfaxnzgqqnycctgcg.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity shown up to ~500 guests. Contact the venue for package and pricing details."
+    },
+    {
+      "number": 21,
+      "starRating": 4,
+      "nid": "46709",
+      "titleArabic": "فندق قصر البوتيك",
+      "titleEnglish": "The Palace Boutique Hotel",
+      "url": "/hotels/manama/the-palace-boutique-hotel-46709",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/the-palace-boutique-hotel-46709",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "500",
+      "maxGuestsIndoor": null,
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/46709/preview_797081_202110111916541743_03136.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/46709/preview_797081_202110111916541743_03136.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Outdoor capacity shown up to ~500 guests. Contact the venue for indoor hall capacity and pricing."
+    },
+    {
+      "number": 22,
+      "starRating": 4,
+      "nid": "46727",
+      "titleArabic": "ويندام جاردن المنامة",
+      "titleEnglish": "Wyndham Garden Manama",
+      "url": "/hotels/manama/wyndham-garden-manama-46727",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/wyndham-garden-manama-46727",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "500",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://www.wyndhamhotels.com/content/dam/property-images/en-us/gn/bh/others/manam/47950/47950_meeting_room_2.jpg?downsize=1300%3A%2A",
+      "photos": [
+        "https://i.zafaf.net/providers/46727/preview_499316_202110190420447714_03145.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity shown up to 500 guests; minimum booking noted as 50 guests.",
+      "imageUrls": [
+        "https://www.wyndhamhotels.com/content/dam/property-images/en-us/gn/bh/others/manam/47950/47950_meeting_room_2.jpg?downsize=1300%3A%2A",
+        "https://i.zafaf.net/providers/46727/preview_499316_202110190420447714_03145.jpg"
+      ]
+    },
+    {
+      "number": 23,
+      "starRating": 4,
+      "nid": "20173",
+      "titleArabic": "ميركيور جراند السيف",
+      "titleEnglish": "Mercure Grand Seef",
+      "url": "/hotels/manama/mercure-grand-seef-20173",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/mercure-grand-seef-20173",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "50-100",
+      "price": "10 BHD/person (avg)",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/20173/preview_EFPY1SWJItc9KkP9v0Naw87q5.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/20173/preview_EFPY1SWJItc9KkP9v0Naw87q5.jpg",
+        "https://i.zafaf.net/providers/20173/thumb_EFPY1SWJItc9KkP9v0Naw87q5.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: 50-100 guests. Average cost shown: 10 BHD per person."
+    },
+    {
+      "number": 24,
+      "starRating": 4,
+      "nid": "517",
+      "titleArabic": "رامادا هوتيل",
+      "titleEnglish": "Ramada Hotel Bahrain",
+      "url": "/hotels/manama/ramada-hotel-bahrain-517",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/ramada-hotel-bahrain-517",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "<50",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/517/preview_bxdhlfjiniqhubalheuxzcaze.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/517/preview_bxdhlfjiniqhubalheuxzcaze.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: under 50 guests. Contact the venue for package and pricing details."
+    },
+    {
+      "number": 25,
+      "starRating": 4,
+      "nid": "46664",
+      "titleArabic": "رمادا المنامة سيتي سنتر",
+      "titleEnglish": "Ramada Manama City Centre",
+      "url": "/hotels/manama/ramada-manama-city-centre-46664",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/ramada-manama-city-centre-46664",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "500",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/46664/preview_yspiibbyzzohwlxcasdqbxdaf.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/46664/preview_yspiibbyzzohwlxcasdqbxdaf.jpg",
+        "https://i.zafaf.net/providers/46664/thumb_yspiibbyzzohwlxcasdqbxdaf.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity shown up to 500 guests; minimum booking noted as 50 guests."
+    },
+    {
+      "number": 26,
+      "starRating": 4,
+      "nid": "46663",
+      "titleArabic": "فندق اورانح سويتس",
+      "titleEnglish": "Orange Suites Hotel",
+      "url": "/hotels/manama/orange-suites-hotel-46663",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/orange-suites-hotel-46663",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "50-100",
+      "price": "12 BHD/person (avg)",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/46663/preview_1_202108310622026912_03158.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/46663/preview_1_202108310622026912_03158.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: 50-100 guests. Average cost shown: 12 BHD per person."
+    },
+    {
+      "number": 27,
+      "starRating": 4,
+      "nid": "46583",
+      "titleArabic": "فندق كريستال بالاس",
+      "titleEnglish": "Crystal Palace Hotel",
+      "url": "/hotels/manama/crystal-palace-hotel-46583",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/crystal-palace-hotel-46583",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "100-200",
+      "price": "8 BHD/person (avg)",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/46583/preview_dpmrmancvfietpwmauamuyzpv.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/46583/preview_dpmrmancvfietpwmauamuyzpv.jpg",
+        "https://i.zafaf.net/providers/46583/thumb_dpmrmancvfietpwmauamuyzpv.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: 100-200 guests. Average cost shown: 8 BHD per person."
+    },
+    {
+      "number": 28,
+      "starRating": 4,
+      "nid": "2388",
+      "titleArabic": "فندق مونرو",
+      "titleEnglish": "Monroe Hotel",
+      "url": "/hotels/manama/monroe-hotel-2388",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/monroe-hotel-2388",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "50-100",
+      "maxGuestsIndoor": "<50",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/2388/preview_240212_149693421769843_2099432_o.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/2388/preview_240212_149693421769843_2099432_o.jpg",
+        "https://i.zafaf.net/providers/2388/thumb_240212_149693421769843_2099432_o.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor hall noted as under 50 guests; outdoor capacity 50-100. Contact for pricing."
+    },
+    {
+      "number": 29,
+      "starRating": 4,
+      "nid": "90002",
+      "titleArabic": "ايليت كريستال رويال",
+      "titleEnglish": "Elite Crystal Royal",
+      "url": "/hotels/manama/elite-crystal-hotel-2552",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/elite-crystal-hotel-2552",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "100-200",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/2552/preview_XYcbztTZNn0ae5cOApREbTbYo.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/2552/thumb_XYcbztTZNn0ae5cOApREbTbYo.jpg",
+        "https://i.zafaf.net/providers/2552/thumb_DguaJVeeADbdtkytrlQCVfiNj.jpg",
+        "https://i.zafaf.net/providers/2552/thumb_DDHU776h5Jmp5V2IhqBaloaZu.jpg",
+        "https://i.zafaf.net/providers/2552/thumb_O5fx7b6zW5vyOmlYfqqGSLpkF.png",
+        "https://i.zafaf.net/providers/2552/thumb_qmsAZ9J1CrmHI1EYuvewajJbj.jpeg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Juffair, listed on Zafaf.net. Approximate capacity 100-200 guests. Contact for pricing."
+    },
+    {
+      "number": 30,
+      "starRating": 3,
+      "nid": "46705",
+      "titleArabic": "إنفينيتي سويتس",
+      "titleEnglish": "Infinity Suites Infinity Tower",
+      "url": "/hotels/manama/infinity-suites-infinity-tower-46705",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/infinity-suites-infinity-tower-46705",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "<50",
+      "price": "7 BHD/person (avg)",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/46705/preview_hnbggpqtuxqwterdjfhthkalj.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/46705/preview_hnbggpqtuxqwterdjfhthkalj.jpg",
+        "https://i.zafaf.net/providers/46705/thumb_hnbggpqtuxqwterdjfhthkalj.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: under 50 guests. Average cost shown: 7 BHD per person."
+    },
+    {
+      "number": 31,
+      "starRating": 3,
+      "nid": "2428",
+      "titleArabic": "فندق القصر الشرقي",
+      "titleEnglish": "Oriental Palace Hotel",
+      "url": "/hotels/manama/oriental-palace-hotel-2428",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/oriental-palace-hotel-2428",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "50-100",
+      "price": null,
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/2428/preview_kudmgtsmcdxvxosxmbobfgcee.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/2428/preview_kudmgtsmcdxvxosxmbobfgcee.jpg",
+        "https://i.zafaf.net/providers/2428/thumb_kudmgtsmcdxvxosxmbobfgcee.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: 50-100 guests. Contact the venue for package and pricing details."
+    },
+    {
+      "number": 32,
+      "starRating": 3,
+      "nid": "46604",
+      "titleArabic": "هاني سويتس آند سبا",
+      "titleEnglish": "Hani Suites Spa",
+      "url": "/hotels/manama/hani-suites-spa-46604",
+      "fullUrl": "https://bahrain.zafaf.net/hotels/manama/hani-suites-spa-46604",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "100-200",
+      "price": "3.5 BHD/person (avg)",
+      "category": "Hotels",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/46604/preview_941607_202110300151462496_03122.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/46604/preview_941607_202110300151462496_03122.jpg"
+      ],
+      "descriptionEN": "Hotel wedding venue in Manama listed on Zafaf.net. Indoor capacity: 100-200 guests. Average cost shown: 3.5 BHD per person."
+    }
+  ],
+  "independentHalls": [
+    {
+      "number": 33,
+      "nid": "1040",
+      "titleArabic": "صالة الزهراء",
+      "titleEnglish": "Al Zahraa Wedding Hall",
+      "url": "/private-wedding-venues/manama/al-zahraa-18158",
+      "fullUrl": "https://bahrain.zafaf.net/private-wedding-venues/manama/al-zahraa-18158",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "500++",
+      "maxGuestsIndoor": "500++",
+      "price": null,
+      "category": "Wedding Halls",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/18158/preview_xvgbmukyatfnnnatlrwxvuggf.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/18158/thumb_xvgbmukyatfnnnatlrwxvuggf.jpg",
+        "https://i.zafaf.net/providers/18158/thumb_ctizuipyzfvpeicmeueurxxxz.jpg",
+        "https://i.zafaf.net/providers/18158/thumb_bhlhethyzbywgepnohfkflemp.jpg"
+      ],
+      "descriptionEN": "Independent wedding hall in Manama listed on Zafaf.net. Large indoor/outdoor capacity (500++). Contact the hall for pricing and package details.",
+      "imageUrls": [
+        "https://i.zafaf.net/providers/18158/preview_xvgbmukyatfnnnatlrwxvuggf.jpg",
+        "https://i.zafaf.net/providers/18158/thumb_xvgbmukyatfnnnatlrwxvuggf.jpg",
+        "https://i.zafaf.net/providers/18158/thumb_ctizuipyzfvpeicmeueurxxxz.jpg",
+        "https://i.zafaf.net/providers/18158/thumb_bhlhethyzbywgepnohfkflemp.jpg"
+      ]
+    },
+    {
+      "number": 34,
+      "nid": "1006",
+      "titleArabic": "صالة الدانة",
+      "titleEnglish": "Dana Wedding Hall",
+      "url": "/private-wedding-venues/manama/dana-hall-1056",
+      "fullUrl": "https://bahrain.zafaf.net/private-wedding-venues/manama/dana-hall-1056",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "500++",
+      "maxGuestsIndoor": "500++",
+      "price": "20 BHD/person (min)",
+      "category": "Wedding Halls",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/1056/preview_hpthdbbjwwgqlijdhyhfdckfj.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/1056/thumb_hpthdbbjwwgqlijdhyhfdckfj.jpg"
+      ],
+      "descriptionEN": "Independent wedding hall in Manama listed on Zafaf.net. Large capacity (500++). Minimum cost shown: 20 BHD per person.",
+      "imageUrls": [
+        "https://i.zafaf.net/providers/1056/preview_hpthdbbjwwgqlijdhyhfdckfj.jpg",
+        "https://i.zafaf.net/providers/1056/thumb_hpthdbbjwwgqlijdhyhfdckfj.jpg"
+      ]
+    },
+    {
+      "number": 35,
+      "nid": "1019",
+      "titleArabic": "صالة برستيج النادي الأهلي",
+      "titleEnglish": "Prestige Hall Al Ahli Club",
+      "url": "/private-wedding-venues/manama/prestige-al-ahli-club-1066",
+      "fullUrl": "https://bahrain.zafaf.net/private-wedding-venues/manama/prestige-al-ahli-club-1066",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "100-200",
+      "price": "20 BHD (hall price / min cost noted on listing)",
+      "category": "Wedding Halls",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/1066/preview_ewuojgotmxmxotcsqjwuzpdhe.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/1066/thumb_ewuojgotmxmxotcsqjwuzpdhe.jpg",
+        "https://i.zafaf.net/providers/1066/thumb_wskmwfvpnnzivbxtwvnyedwaz.jpg",
+        "https://i.zafaf.net/providers/1066/thumb_LP0GRivgjZtJKhbGClLwoB0ng.jpg",
+        "https://i.zafaf.net/providers/1066/thumb_KzI6ZrmsdAwADtcENKfHTZUnU.jpg",
+        "https://i.zafaf.net/providers/1066/thumb_FZx7Y3DGjdWaMIqHzjdKq1dnw.jpg"
+      ],
+      "descriptionEN": "Independent wedding hall in Manama listed on Zafaf.net. Capacity shown: 100-200 (men and women sections). Contact the hall to confirm full package pricing.",
+      "imageUrls": [
+        "https://i.zafaf.net/providers/1066/preview_ewuojgotmxmxotcsqjwuzpdhe.jpg",
+        "https://i.zafaf.net/providers/1066/thumb_ewuojgotmxmxotcsqjwuzpdhe.jpg",
+        "https://i.zafaf.net/providers/1066/thumb_wskmwfvpnnzivbxtwvnyedwaz.jpg",
+        "https://i.zafaf.net/providers/1066/thumb_LP0GRivgjZtJKhbGClLwoB0ng.jpg",
+        "https://i.zafaf.net/providers/1066/thumb_KzI6ZrmsdAwADtcENKfHTZUnU.jpg",
+        "https://i.zafaf.net/providers/1066/thumb_FZx7Y3DGjdWaMIqHzjdKq1dnw.jpg"
+      ]
+    },
+    {
+      "number": 36,
+      "nid": "1018",
+      "titleArabic": "قاعة الليالي",
+      "titleEnglish": "Al Layali Hall",
+      "url": "/private-wedding-venues/manama/al-layali-hall-1022",
+      "fullUrl": "https://bahrain.zafaf.net/private-wedding-venues/manama/al-layali-hall-1022",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "300-500",
+      "maxGuestsIndoor": "300-500",
+      "price": "Hall from 2000 BHD; min 20 BHD/person",
+      "category": "Wedding Halls",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/1022/preview_geopaeqhddnewhoolwzstneey.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/1022/thumb_geopaeqhddnewhoolwzstneey.jpg"
+      ],
+      "descriptionEN": "Independent wedding hall in Manama listed on Zafaf.net. Capacity: 300-500 guests. Pricing notes include hall starting at 2000 BHD and minimum 20 BHD per person.",
+      "imageUrls": [
+        "https://i.zafaf.net/providers/1022/preview_geopaeqhddnewhoolwzstneey.jpg",
+        "https://i.zafaf.net/providers/1022/thumb_geopaeqhddnewhoolwzstneey.jpg"
+      ]
+    },
+    {
+      "number": 37,
+      "nid": "47946",
+      "titleArabic": "ذا هافن",
+      "titleEnglish": "The Heaven",
+      "url": "/private-wedding-venues/manama/the-heaven-47946",
+      "fullUrl": "https://bahrain.zafaf.net/private-wedding-venues/manama/the-heaven-47946",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": "500++",
+      "maxGuestsIndoor": "200-300",
+      "price": "Hall from 1500 BHD; from 10 BHD/person",
+      "category": "Wedding Halls",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/47946/preview_hgvdqcfdohnmmvbdzyrcdsvkw.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/47946/preview_hgvdqcfdohnmmvbdzyrcdsvkw.jpg",
+        "https://i.zafaf.net/providers/47946/thumb_hgvdqcfdohnmmvbdzyrcdsvkw.jpg"
+      ],
+      "descriptionEN": "Independent wedding hall in Manama listed on Zafaf.net. Total capacity shown 500++; indoor 200-300; outdoor 500++. Pricing notes include hall from 1500 BHD and 10 BHD per person.",
+      "imageUrls": [
+        "https://i.zafaf.net/providers/47946/preview_hgvdqcfdohnmmvbdzyrcdsvkw.jpg",
+        "https://i.zafaf.net/providers/47946/thumb_hgvdqcfdohnmmvbdzyrcdsvkw.jpg"
+      ]
+    },
+    {
+      "number": 38,
+      "nid": "18170",
+      "titleArabic": "قاعة دنيا المسباح للمناسبات",
+      "titleEnglish": "Dunya Almesbah For Weddings",
+      "url": "/private-wedding-venues/manama/dunya-almesbah-for-weddings-18170",
+      "fullUrl": "https://bahrain.zafaf.net/private-wedding-venues/manama/dunya-almesbah-for-weddings-18170",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "300-500",
+      "price": null,
+      "category": "Wedding Halls",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/18170/preview_qplmlllixiojiilmrhtrtmptl.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/18170/preview_qplmlllixiojiilmrhtrtmptl.jpg",
+        "https://i.zafaf.net/providers/18170/thumb_qplmlllixiojiilmrhtrtmptl.jpg"
+      ],
+      "descriptionEN": "Independent wedding hall in Manama listed on Zafaf.net. Capacity shown around 300-500 guests. Contact the hall for package and pricing details.",
+      "imageUrls": [
+        "https://i.zafaf.net/providers/18170/preview_qplmlllixiojiilmrhtrtmptl.jpg",
+        "https://i.zafaf.net/providers/18170/thumb_qplmlllixiojiilmrhtrtmptl.jpg"
+      ]
+    },
+    {
+      "number": 39,
+      "nid": "1037",
+      "titleArabic": "صاله الانوار",
+      "titleEnglish": "Al Anwar Hall",
+      "url": "/private-wedding-venues/manama/al-anwar-hall-1037",
+      "fullUrl": "https://bahrain.zafaf.net/private-wedding-venues/manama/al-anwar-hall-1037",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "200-300",
+      "price": "200 BHD (price shown on listing)",
+      "category": "Wedding Halls",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/1037/preview_remwlkcqctvjylubrsnizvfth.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/1037/preview_remwlkcqctvjylubrsnizvfth.jpg",
+        "https://i.zafaf.net/providers/1037/thumb_remwlkcqctvjylubrsnizvfth.jpg"
+      ],
+      "descriptionEN": "Independent wedding hall in Manama listed on Zafaf.net. Capacity shown: 200-300 guests. A price of 200 BHD is shown on the listing; contact to confirm the exact pricing model.",
+      "imageUrls": [
+        "https://i.zafaf.net/providers/1037/preview_remwlkcqctvjylubrsnizvfth.jpg",
+        "https://i.zafaf.net/providers/1037/thumb_remwlkcqctvjylubrsnizvfth.jpg"
+      ]
+    },
+    {
+      "number": 40,
+      "nid": "1017",
+      "titleArabic": "صالة ناريمات",
+      "titleEnglish": "Narimat Hall",
+      "url": "/private-wedding-venues/manama/narimat-hall-1017",
+      "fullUrl": "https://bahrain.zafaf.net/private-wedding-venues/manama/narimat-hall-1017",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "200-300",
+      "price": "250 BHD (price shown on listing)",
+      "category": "Wedding Halls",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/1017/preview_EA8WyOi3Q6Z4TIv9N1PU1gTN4.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/1017/preview_EA8WyOi3Q6Z4TIv9N1PU1gTN4.jpg",
+        "https://i.zafaf.net/providers/1017/thumb_EA8WyOi3Q6Z4TIv9N1PU1gTN4.jpg"
+      ],
+      "descriptionEN": "Independent wedding hall in Manama listed on Zafaf.net. Capacity shown: 200-300 guests. A price of 250 BHD is shown on the listing; contact to confirm package details.",
+      "imageUrls": [
+        "https://i.zafaf.net/providers/1017/preview_EA8WyOi3Q6Z4TIv9N1PU1gTN4.jpg",
+        "https://i.zafaf.net/providers/1017/thumb_EA8WyOi3Q6Z4TIv9N1PU1gTN4.jpg"
+      ]
+    },
+    {
+      "number": 41,
+      "nid": "18169",
+      "titleArabic": "صالة البركة",
+      "titleEnglish": "Barakah Hall",
+      "url": "/private-wedding-venues/manama/barakah-hall-18169",
+      "fullUrl": "https://bahrain.zafaf.net/private-wedding-venues/manama/barakah-hall-18169",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "300-500",
+      "price": "200 BHD (price shown on listing)",
+      "category": "Wedding Halls",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/18169/preview_rquziwcjtrnbdackrqcdpntfw.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/18169/preview_rquziwcjtrnbdackrqcdpntfw.jpg",
+        "https://i.zafaf.net/providers/18169/thumb_rquziwcjtrnbdackrqcdpntfw.jpg"
+      ],
+      "descriptionEN": "Independent wedding hall in Manama listed on Zafaf.net. Capacity shown: 300-500 guests. A price of 200 BHD is shown on the listing; contact to confirm package details.",
+      "imageUrls": [
+        "https://i.zafaf.net/providers/18169/preview_rquziwcjtrnbdackrqcdpntfw.jpg",
+        "https://i.zafaf.net/providers/18169/thumb_rquziwcjtrnbdackrqcdpntfw.jpg"
+      ]
+    },
+    {
+      "number": 42,
+      "nid": "1053",
+      "titleArabic": "صالة قصر المرجان",
+      "titleEnglish": "Kaser Almurgan Hall",
+      "url": "/private-wedding-venues/manama/kaser-almurgan-hall-1053",
+      "fullUrl": "https://bahrain.zafaf.net/private-wedding-venues/manama/kaser-almurgan-hall-1053",
+      "featured": "Standard",
+      "featuredPlus": false,
+      "hasPackages": "Yes",
+      "maxGuestsOutdoor": null,
+      "maxGuestsIndoor": "300-500",
+      "price": null,
+      "category": "Wedding Halls",
+      "city": "Manama",
+      "mainImage": "https://i.zafaf.net/providers/1053/preview_xhzxxtgdtwvyrkawppwnfkxkf.jpg",
+      "photos": [
+        "https://i.zafaf.net/providers/1053/preview_xhzxxtgdtwvyrkawppwnfkxkf.jpg",
+        "https://i.zafaf.net/providers/1053/thumb_xhzxxtgdtwvyrkawppwnfkxkf.jpg"
+      ],
+      "descriptionEN": "Independent wedding hall in Manama listed on Zafaf.net. Capacity shown around 300-500 guests. Contact the hall for pricing and package details.",
+      "imageUrls": [
+        "https://i.zafaf.net/providers/1053/preview_xhzxxtgdtwvyrkawppwnfkxkf.jpg",
+        "https://i.zafaf.net/providers/1053/thumb_xhzxxtgdtwvyrkawppwnfkxkf.jpg"
+      ]
+    }
+  ],
+  "imagePolicyNote": "Images are linked from various sources (official hotel sites where possible) and may be subject to copyright and hotlink restrictions."
+}
